@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HELLO.aspx" />
+    <Content Include="TUTORIAL1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +80,13 @@
       <DependentUpon>HELLO.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TUTORIAL1.aspx.cs">
+      <DependentUpon>TUTORIAL1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TUTORIAL1.aspx.designer.cs">
+      <DependentUpon>TUTORIAL1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
